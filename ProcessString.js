@@ -31,4 +31,5 @@ var processString = function (input_string, max_consecutive_chars) {
 }
 
 console.log(processString('aaab', 2));
+console.log(processString('aabb', 1));
 console.log(processString('aabbaa', 1));
